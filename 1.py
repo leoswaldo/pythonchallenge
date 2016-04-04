@@ -1,5 +1,9 @@
 #!/python/python3.4/bin/python3
 
+## Function: translate
+#  Description: replace characters in corresponding position from list
+#  Parameters: phrase
+#      phrase: phrase to translate
 def translate(phrase):
     trantab = str.maketrans('abcdefghijklmnopqrstuvwxyz', 'cdefghijklmnopqrstuvwxyzab')
     translation = phrase.translate(trantab)
